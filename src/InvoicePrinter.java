@@ -1,5 +1,13 @@
-public class Main {
+import javax.swing.*;
+
+/**
+ * prints a sample invoice
+ */
+
+public class InvoicePrinter {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        InvoiceFrame frame = new InvoiceFrame();
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
